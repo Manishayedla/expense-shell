@@ -42,5 +42,4 @@ VALIDATE $? "Starting MySQL Server"
 mysql_secure_installation --set-root-pass ExpenseApp@1 &>>$LOGFILE
 VALIDATE $? "Setting up root password"
 
-echo "hello12"
-echo "hello"
+
