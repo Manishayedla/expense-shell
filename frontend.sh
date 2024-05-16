@@ -56,3 +56,4 @@ VALIDATE $? "Copied expense path"
 
 systemctl restart nginx &>>$LOGFILE
 VALIDATE $? "Restarting nginx"
+
