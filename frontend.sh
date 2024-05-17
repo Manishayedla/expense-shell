@@ -44,7 +44,7 @@ VALIDATE $? "Downloading frontend code"
 
 cd /usr/share/nginx/html &>>$LOGFILE
 unzip /tmp/frontend.zip &>>$LOGFILE
-VALIDATE $? "Extractingg frontend code"
+VALIDATE $? "Extracting frontend code"
 
 
 #check your repo and path
